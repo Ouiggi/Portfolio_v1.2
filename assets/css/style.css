@@ -140,6 +140,8 @@ footer {
 }
 
 input[type=text], select, textarea {
+    position: relative;
+    left: 50px;
     width: 60%;
     padding: 12px;  
     border: 1px solid #ccc; 
@@ -167,3 +169,9 @@ input[type=text], select, textarea {
     background-color: #6be4de;
     box-shadow: 0 3px 5px gray;
     transform: translateY(2px);
+}
+
+label {
+    position: relative;
+    left: 30px;
+}
